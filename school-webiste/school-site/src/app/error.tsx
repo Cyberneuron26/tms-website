@@ -1,0 +1,1 @@
+'use client';export default function Error({reset}:{error:Error;reset:()=>void}){return <div className="container-site py-28 text-center"><h1 className="text-3xl font-bold">The content could not be loaded</h1><p className="my-5">Please try again. If the problem persists, contact the school.</p><button className="btn" onClick={reset}>Try again</button></div>}

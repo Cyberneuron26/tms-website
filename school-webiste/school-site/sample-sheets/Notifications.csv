@@ -1,0 +1,2 @@
+notification_id,title,message,category,publish_date,expiry_date,attachment_url,is_pinned,status,updated_at
+N001,Welcome,School year begins,General,2026-10-01,,,TRUE,published,2026-10-12

@@ -1,0 +1,10 @@
+@import "tailwindcss";
+:root{--navy:#102a43;--teal:#0e7490;--gold:#f8c565}
+body{background:#f7fafc;color:var(--navy);font-family:Arial,Helvetica,sans-serif}
+a{transition:color .15s}a:hover{color:#0e7490}
+.container-site{max-width:1150px;margin:auto;padding-left:1.25rem;padding-right:1.25rem}
+.panel{background:white;border:1px solid #e5edf3;border-radius:1rem;padding:1.5rem;box-shadow:0 3px 18px #102a430a}
+.btn{display:inline-flex;align-items:center;justify-content:center;background:#0e7490;color:white;border-radius:.65rem;padding:.75rem 1.25rem;font-weight:700}
+.btn:hover{background:#155e75;color:white}
+.field{width:100%;border:1px solid #bccbd5;background:white;border-radius:.6rem;padding:.7rem;color:#102a43}
+h1,h2,h3{letter-spacing:-.025em}

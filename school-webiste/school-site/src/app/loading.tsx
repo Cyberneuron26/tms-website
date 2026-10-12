@@ -1,0 +1,1 @@
+export default function Loading(){return <div className="container-site py-20 animate-pulse"><div className="h-10 bg-slate-200 rounded-xl w-2/3 mb-6"/><div className="h-48 bg-slate-200 rounded-xl"/></div>}

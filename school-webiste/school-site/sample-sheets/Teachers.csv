@@ -1,0 +1,2 @@
+teacher_id,name,designation,subjects,classes,biography,photo_url,official_contact,is_public,updated_at
+T001,Example Teacher,Science Teacher,Science,VI–VIII,About teacher,,teacher@example.edu,TRUE,2026-10-12

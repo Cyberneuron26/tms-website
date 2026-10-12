@@ -1,0 +1,2 @@
+export function Page({title,subtitle,children}:{title:string;subtitle?:string;children:React.ReactNode}){return <div className="container-site py-12"><div className="mb-9"><p className="text-sm uppercase tracking-widest text-cyan-700 font-bold mb-2">Our school</p><h1 className="font-bold text-4xl mb-3">{title}</h1>{subtitle&&<p className="text-slate-600 max-w-2xl">{subtitle}</p>}</div>{children}</div>};
+export function Empty({text='No published information is available yet.'}:{text?:string}){return <div className="panel text-slate-600">{text}</div>}
